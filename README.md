@@ -6,6 +6,6 @@ This is a to-do list application built with react and redux using the reduxjs to
 ### Links
 
 - Solution URL: [Code on GitHub](https://github.com/ikennaezef/redux-todo/)
-- Live Site URL: [Live site URL here](https://worldiechat.web.app)
+- Live Site URL: [Live site URL here](https://profound-torrone-970951.netlify.app/)
 
 
