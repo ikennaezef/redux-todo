@@ -1,0 +1,41 @@
+.todo__item {
+	background-color: #fff;
+	margin: 0.3rem;
+	border-radius: 0.2rem;
+	padding: 0.4rem 0.4rem 0.4rem 1rem;
+	text-align: left;
+	font-size: 1rem;
+	animation: slide 0.4s ease forwards;
+	transition: 0.3s ease;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.todo__item.todo__done {
+	border-left: 0.4rem solid #00bf00;	
+}
+
+.todo__item.todo__done .todo__main {
+	text-decoration: line-through;
+	color: #bbb;
+}
+
+.todo__item .delete__btn {
+	background-color: #ff6060;
+	color: #fff;
+	cursor: pointer;
+	padding: 0.3rem 0.7rem;
+	border: none;
+	outline: none;
+	border-radius: 0.2rem;
+}
+
+@keyframes slide {
+	from {
+		transform: translateY(10px);
+	}
+	to {
+		transform: translateY(0);
+	}
+}

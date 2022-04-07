@@ -1,0 +1,15 @@
+.header {
+	background: linear-gradient(55deg, #1a06b9, #0f0080);
+	color: #fff;
+	padding: 1.5rem;
+	border-radius: 0.4rem;
+}
+
+.header h1 {
+	font-size: 1.6rem;
+	margin-bottom: 0.5rem;
+}
+
+.header .counter {
+	font-size: 1rem;
+}
